@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {background-color: rgba(229, 218, 247,0.5);
+}
+img {
+    max-width: 500px;
+    border: 7px rgba(27, 166, 221,0.5) solid;   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+font-size: 85px;
+padding: 28px 10px 10px 10px;
+/* padding-top: 28px; */
+border: 6px rgba(27, 166, 221,0.5) solid;
+margin: 10px;
+}
+
+.navbar.navbar-light {
+ background-color: rgba(242, 236, 250,0.5) !important;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Chilanka', cursive;
+}
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+}
