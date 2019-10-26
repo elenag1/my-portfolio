@@ -16,7 +16,9 @@ img {
 }
 
 h1 {
-font-size: 85px;
+font-size: 100px;
+font-family: 'Dosis', sans-serif;
+text-align: center;
 padding: 28px 10px 10px 10px;
 /* padding-top: 28px; */
 border: 6px rgba(27, 166, 221,0.5) solid;
@@ -35,4 +37,20 @@ h1, h2, h3, h4, h5, h6, p {
 .container{
     padding-right: 15px;
     padding-left: 15px;
+}
+button{ 
+    padding: 0px 20px;
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+    margin: 15px;
+}
+.display-none {
+    display: none 
+}
+button:hover {
+    background-color:lightblue;
+    color: white;
 }
